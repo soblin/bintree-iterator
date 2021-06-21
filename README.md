@@ -1,4 +1,4 @@
-# Binary tree with tarversal iterator
+# Binary tree with traversal iterator
 
 ## examle
 
