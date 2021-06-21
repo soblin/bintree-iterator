@@ -2,7 +2,7 @@
 
 ## examle
 
-Construct a bintree, set its traversal mode, and use iterator.
+Construct a bintree, set its traversal mode from {PreOrder, InOrder, PostOrder}. Then .begin() and increment operator++ creates itreator in the designated traversal manner.
 
 ```cpp
   BinaryTree<int> tree;
