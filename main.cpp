@@ -5,7 +5,7 @@ int test1() {
 
   BinaryTree<int> tree;
 
-  for (auto &&i : {4, 2, 1, 3, 6, 5}) {
+  for (decltype(tree)::value_type i : {4, 2, 1, 3, 6, 5}) {
     tree.add(i);
   }
 
@@ -25,7 +25,7 @@ int test2() {
 
   BinaryTree<int> tree;
 
-  for (auto &&i : {1, 2, 3, 4, 5, 6}) {
+  for (decltype(tree)::value_type i : {1, 2, 3, 4, 5, 6}) {
     tree.add(i);
   }
 
@@ -45,7 +45,7 @@ int test3() {
 
   BinaryTree<int> tree;
 
-  for (auto &&i : {4, 2, 1, 3, 6, 5, 10, 9, 8, 15}) {
+  for (decltype(tree)::value_type i : {4, 2, 1, 3, 6, 5, 10, 9, 8, 15}) {
     tree.add(i);
   }
 

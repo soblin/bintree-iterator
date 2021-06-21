@@ -28,6 +28,7 @@ private:
 template <typename T> class BinaryTree {
 public:
   enum Mode { PreOrder, InOrder, PostOrder };
+  using value_type = T;
 
   explicit BinaryTree() : root_(nullptr), mode_(PreOrder) {}
   BinaryTree(T val) : root_(std::make_shared<Node<T>>(val)), mode_(PreOrder) {}
